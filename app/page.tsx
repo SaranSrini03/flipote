@@ -90,7 +90,7 @@ export default function Home() {
         {/* ASCII Art Logo with Glow */}
         <div className="relative group">
           <div 
-            className={`text-white text-2xl sm:text-3xl md:text-4xl transition-all duration-100 ${
+            className={`text-white text-xl sm:text-3xl md:text-4xl transition-all duration-100 ${
               glitchActive ? 'animate-pulse' : ''
             }`}
             style={{
@@ -114,7 +114,7 @@ export default function Home() {
           {glitchActive && (
             <>
               <div 
-                className="absolute inset-0 text-red-500 text-2xl sm:text-3xl md:text-4xl opacity-70"
+                className="absolute inset-0 text-red-500 text-xl sm:text-3xl md:text-4xl opacity-70"
                 style={{ transform: 'translate(-2px, -2px)' }}
               >
                 <pre className="leading-none">
@@ -129,7 +129,7 @@ export default function Home() {
                 </pre>
               </div>
               <div 
-                className="absolute inset-0 text-cyan-500 text-2xl sm:text-3xl md:text-4xl opacity-70"
+                className="absolute inset-0 text-cyan-500 text-xl sm:text-3xl md:text-4xl opacity-70"
                 style={{ transform: 'translate(2px, 2px)' }}
               >
                 <pre className="leading-none">
